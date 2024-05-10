@@ -12,16 +12,16 @@ public val FluentIcons.Filled.Cloud48: ImageVector
     }
     _cloud48 = fluentIcon(name = "Filled.Cloud48", 48f) {
       materialPath {
-          moveTo(24.0F, 10.0F)
-          curveToRelative(-5.738F, 0.0F, -10.45F, 4.393F, -10.955F, 10.0F)
-          horizontalLineTo(12.75F)
-          curveTo(8.47F, 20.0F, 5.0F, 23.47F, 5.0F, 27.75F)
-          curveToRelative(0.0F, 4.28F, 3.47F, 7.75F, 7.75F, 7.75F)
-          horizontalLineToRelative(22.5F)
-          curveToRelative(4.28F, 0.0F, 7.75F, -3.47F, 7.75F, -7.75F)
-          curveToRelative(0.0F, -4.28F, -3.47F, -7.75F, -7.75F, -7.75F)
-          horizontalLineToRelative(-0.295F)
-          curveTo(34.45F, 14.393F, 29.738F, 10.0F, 24.0F, 10.0F)
+          moveTo(24.0F, 9.0F)
+          curveToRelative(-6.29F, 0.0F, -11.45F, 4.84F, -11.959F, 11.0F)
+          horizontalLineTo(11.5F)
+          curveTo(6.806F, 20.0F, 3.0F, 23.806F, 3.0F, 28.5F)
+          reflectiveCurveTo(6.806F, 37.0F, 11.5F, 37.0F)
+          horizontalLineToRelative(25.0F)
+          curveToRelative(4.694F, 0.0F, 8.5F, -3.806F, 8.5F, -8.5F)
+          reflectiveCurveTo(41.194F, 20.0F, 36.5F, 20.0F)
+          horizontalLineToRelative(-0.541F)
+          curveTo(35.45F, 13.84F, 30.29F, 9.0F, 24.0F, 9.0F)
           close()        
       }
     }

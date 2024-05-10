@@ -12,17 +12,17 @@ public val FluentIcons.Filled.Flag20: ImageVector
     }
     _flag20 = fluentIcon(name = "Filled.Flag20", 20f) {
       materialPath {
-          moveTo(4.5F, 13.0F)
-          horizontalLineToRelative(11.0F)
+          moveTo(5.0F, 13.0F)
+          horizontalLineToRelative(11.5F)
           curveToRelative(0.4F, 0.0F, 0.637F, -0.445F, 0.416F, -0.777F)
-          lineTo(13.101F, 8.0F)
+          lineTo(14.101F, 8.0F)
           lineToRelative(2.815F, -4.223F)
-          curveTo(16.137F, 3.445F, 15.899F, 3.0F, 15.5F, 3.0F)
-          horizontalLineTo(4.0F)
-          curveTo(3.724F, 3.0F, 3.5F, 3.224F, 3.5F, 3.5F)
+          curveTo(17.137F, 3.445F, 16.899F, 3.0F, 16.5F, 3.0F)
+          horizontalLineToRelative(-12.0F)
+          curveTo(4.224F, 3.0F, 4.0F, 3.224F, 4.0F, 3.5F)
           verticalLineToRelative(14.0F)
-          curveTo(3.5F, 17.776F, 3.724F, 18.0F, 4.0F, 18.0F)
-          reflectiveCurveToRelative(0.5F, -0.224F, 0.5F, -0.5F)
+          curveTo(4.0F, 17.776F, 4.224F, 18.0F, 4.5F, 18.0F)
+          reflectiveCurveTo(5.0F, 17.776F, 5.0F, 17.5F)
           verticalLineTo(13.0F)
           close()        
       }

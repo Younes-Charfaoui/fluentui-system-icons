@@ -2,7 +2,6 @@ package com.microsoft.fluent.mobile.icons
 
 import androidx.compose.material.icons.materialPath
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.graphics.vector.PathBuilder
 import com.microsoft.fluent.mobile.FluentIcons
 import com.microsoft.fluent.mobile.fluentIcon
 
@@ -12,14 +11,6 @@ public val FluentIcons.Filled.Mention12: ImageVector
       return _mention12!!
     }
     _mention12 = fluentIcon(name = "Filled.Mention12", 12f) {
-        addGroup(clipPathData = PathBuilder().apply {
-            moveTo(0.0F, 0.0F)
-            horizontalLineToRelative(12.0F)
-            verticalLineToRelative(12.0F)
-            horizontalLineTo(0.0F)
-            close()
-            moveToRelative(0.0F, 0.0F)
-        }.getNodes())
       materialPath {
           moveTo(2.0F, 6.0F)
           curveToRelative(0.0F, -2.21F, 1.79F, -4.0F, 4.0F, -4.0F)
@@ -50,7 +41,7 @@ public val FluentIcons.Filled.Mention12: ImageVector
           reflectiveCurveTo(4.5F, 6.914F, 4.5F, 6.0F)
           reflectiveCurveToRelative(0.64F, -1.5F, 1.25F, -1.5F)
           reflectiveCurveTo(7.0F, 5.086F, 7.0F, 6.0F)
-          close()
+          close()        
       }
     }
     return _mention12!!

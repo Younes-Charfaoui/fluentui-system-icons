@@ -1,0 +1,106 @@
+package com.microsoft.fluent.mobile.icons
+
+import androidx.compose.material.icons.materialPath
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.microsoft.fluent.mobile.FluentIcons
+import com.microsoft.fluent.mobile.fluentIcon
+
+public val FluentIcons.Regular.FilmstripImage24: ImageVector
+  get() {
+    if (_filmstripImage24 != null) {
+      return _filmstripImage24!!
+    }
+    _filmstripImage24 = fluentIcon(name = "Regular.FilmstripImage24", 24f) {
+      materialPath {
+          moveTo(2.0F, 5.25F)
+          curveTo(2.0F, 3.455F, 3.455F, 2.0F, 5.25F, 2.0F)
+          horizontalLineToRelative(9.5F)
+          curveTo(16.545F, 2.0F, 18.0F, 3.455F, 18.0F, 5.25F)
+          verticalLineTo(8.0F)
+          horizontalLineToRelative(-1.5F)
+          verticalLineTo(5.25F)
+          curveToRelative(0.0F, -0.966F, -0.784F, -1.75F, -1.75F, -1.75F)
+          horizontalLineToRelative(-9.5F)
+          curveTo(4.284F, 3.5F, 3.5F, 4.284F, 3.5F, 5.25F)
+          verticalLineToRelative(7.5F)
+          curveToRelative(0.0F, 0.966F, 0.784F, 1.75F, 1.75F, 1.75F)
+          horizontalLineTo(8.0F)
+          verticalLineTo(16.0F)
+          horizontalLineTo(5.25F)
+          curveTo(3.455F, 16.0F, 2.0F, 14.545F, 2.0F, 12.75F)
+          verticalLineToRelative(-7.5F)
+          close()
+          moveToRelative(17.0F, 8.0F)
+          curveToRelative(0.0F, 0.69F, -0.56F, 1.25F, -1.25F, 1.25F)
+          reflectiveCurveToRelative(-1.25F, -0.56F, -1.25F, -1.25F)
+          reflectiveCurveTo(17.06F, 12.0F, 17.75F, 12.0F)
+          reflectiveCurveTo(19.0F, 12.56F, 19.0F, 13.25F)
+          close()
+          moveToRelative(-10.0F, -1.0F)
+          curveTo(9.0F, 10.455F, 10.455F, 9.0F, 12.25F, 9.0F)
+          horizontalLineToRelative(6.5F)
+          curveTo(20.545F, 9.0F, 22.0F, 10.455F, 22.0F, 12.25F)
+          verticalLineToRelative(6.5F)
+          curveToRelative(0.0F, 1.795F, -1.455F, 3.25F, -3.25F, 3.25F)
+          horizontalLineToRelative(-6.5F)
+          curveTo(10.455F, 22.0F, 9.0F, 20.545F, 9.0F, 18.75F)
+          verticalLineToRelative(-6.5F)
+          close()
+          moveToRelative(3.25F, -1.75F)
+          curveToRelative(-0.966F, 0.0F, -1.75F, 0.784F, -1.75F, 1.75F)
+          verticalLineToRelative(6.5F)
+          curveToRelative(0.0F, 0.19F, 0.03F, 0.372F, 0.086F, 0.542F)
+          lineToRelative(3.394F, -3.185F)
+          curveToRelative(0.865F, -0.81F, 2.21F, -0.81F, 3.074F, 0.0F)
+          lineToRelative(3.37F, 3.153F)
+          curveToRelative(0.05F, -0.162F, 0.076F, -0.333F, 0.076F, -0.51F)
+          verticalLineToRelative(-6.5F)
+          curveToRelative(0.0F, -0.966F, -0.784F, -1.75F, -1.75F, -1.75F)
+          horizontalLineToRelative(-6.5F)
+          close()
+          moveToRelative(0.0F, 10.0F)
+          horizontalLineToRelative(6.5F)
+          curveToRelative(0.235F, 0.0F, 0.46F, -0.047F, 0.665F, -0.13F)
+          lineToRelative(-3.386F, -3.168F)
+          curveToRelative(-0.288F, -0.27F, -0.736F, -0.27F, -1.024F, 0.0F)
+          lineToRelative(-3.388F, 3.18F)
+          curveToRelative(0.196F, 0.076F, 0.41F, 0.118F, 0.633F, 0.118F)
+          close()
+          moveTo(5.75F, 5.0F)
+          curveTo(6.164F, 5.0F, 6.5F, 5.336F, 6.5F, 5.75F)
+          verticalLineToRelative(0.5F)
+          curveTo(6.5F, 6.664F, 6.164F, 7.0F, 5.75F, 7.0F)
+          reflectiveCurveTo(5.0F, 6.664F, 5.0F, 6.25F)
+          verticalLineToRelative(-0.5F)
+          curveTo(5.0F, 5.336F, 5.336F, 5.0F, 5.75F, 5.0F)
+          close()
+          moveTo(6.5F, 8.75F)
+          curveTo(6.5F, 8.336F, 6.164F, 8.0F, 5.75F, 8.0F)
+          reflectiveCurveTo(5.0F, 8.336F, 5.0F, 8.75F)
+          verticalLineToRelative(0.5F)
+          curveTo(5.0F, 9.664F, 5.336F, 10.0F, 5.75F, 10.0F)
+          reflectiveCurveTo(6.5F, 9.664F, 6.5F, 9.25F)
+          verticalLineToRelative(-0.5F)
+          close()
+          moveTo(14.25F, 5.0F)
+          curveTo(14.664F, 5.0F, 15.0F, 5.336F, 15.0F, 5.75F)
+          verticalLineToRelative(0.5F)
+          curveTo(15.0F, 6.664F, 14.664F, 7.0F, 14.25F, 7.0F)
+          reflectiveCurveTo(13.5F, 6.664F, 13.5F, 6.25F)
+          verticalLineToRelative(-0.5F)
+          curveTo(13.5F, 5.336F, 13.836F, 5.0F, 14.25F, 5.0F)
+          close()
+          moveTo(6.5F, 11.75F)
+          curveTo(6.5F, 11.336F, 6.164F, 11.0F, 5.75F, 11.0F)
+          reflectiveCurveTo(5.0F, 11.336F, 5.0F, 11.75F)
+          verticalLineToRelative(0.5F)
+          curveTo(5.0F, 12.664F, 5.336F, 13.0F, 5.75F, 13.0F)
+          reflectiveCurveToRelative(0.75F, -0.336F, 0.75F, -0.75F)
+          verticalLineToRelative(-0.5F)
+          close()        
+      }
+    }
+    return _filmstripImage24!!
+  }
+
+private var _filmstripImage24: ImageVector? = null

@@ -40,10 +40,10 @@ public val FluentIcons.Filled.History28: ImageVector
           reflectiveCurveToRelative(-1.0F, 0.448F, -1.0F, 1.0F)
           verticalLineToRelative(6.0F)
           curveToRelative(0.0F, 0.552F, 0.448F, 1.0F, 1.0F, 1.0F)
-          horizontalLineToRelative(2.5F)
+          horizontalLineToRelative(4.0F)
           curveToRelative(0.552F, 0.0F, 1.0F, -0.448F, 1.0F, -1.0F)
           reflectiveCurveToRelative(-0.448F, -1.0F, -1.0F, -1.0F)
-          horizontalLineTo(15.0F)
+          horizontalLineToRelative(-3.0F)
           verticalLineTo(8.0F)
           close()        
       }

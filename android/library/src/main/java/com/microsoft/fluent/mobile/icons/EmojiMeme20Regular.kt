@@ -1,0 +1,106 @@
+package com.microsoft.fluent.mobile.icons
+
+import androidx.compose.material.icons.materialPath
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.microsoft.fluent.mobile.FluentIcons
+import com.microsoft.fluent.mobile.fluentIcon
+
+public val FluentIcons.Regular.EmojiMeme20: ImageVector
+  get() {
+    if (_emojiMeme20 != null) {
+      return _emojiMeme20!!
+    }
+    _emojiMeme20 = fluentIcon(name = "Regular.EmojiMeme20", 20f) {
+      materialPath {
+          moveTo(16.245F, 5.0F)
+          curveTo(14.78F, 3.171F, 12.526F, 2.0F, 10.0F, 2.0F)
+          curveTo(7.474F, 2.0F, 5.22F, 3.171F, 3.755F, 5.0F)
+          horizontalLineTo(5.1F)
+          curveTo(6.364F, 3.763F, 8.093F, 3.0F, 10.0F, 3.0F)
+          reflectiveCurveToRelative(3.636F, 0.763F, 4.899F, 2.0F)
+          horizontalLineToRelative(1.346F)
+          close()
+          moveToRelative(1.693F, 6.0F)
+          horizontalLineTo(16.93F)
+          curveToRelative(-0.485F, 3.392F, -3.402F, 6.0F, -6.929F, 6.0F)
+          curveToRelative(-3.866F, 0.0F, -7.0F, -3.134F, -7.0F, -7.0F)
+          horizontalLineTo(2.0F)
+          curveToRelative(0.0F, 4.418F, 3.582F, 8.0F, 8.0F, 8.0F)
+          curveToRelative(4.08F, 0.0F, 7.446F, -3.054F, 7.938F, -7.0F)
+          close()
+          moveTo(3.0F, 6.0F)
+          horizontalLineToRelative(15.0F)
+          verticalLineToRelative(2.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineToRelative(2.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(-4.0F)
+          verticalLineToRelative(-1.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineTo(8.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineToRelative(2.0F)
+          horizontalLineTo(9.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineTo(5.0F)
+          verticalLineToRelative(-1.0F)
+          horizontalLineTo(4.0F)
+          verticalLineTo(8.0F)
+          horizontalLineTo(2.0F)
+          verticalLineTo(7.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineTo(6.0F)
+          close()
+          moveTo(1.0F, 9.0F)
+          verticalLineTo(8.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineTo(1.0F)
+          close()
+          moveToRelative(0.0F, 0.0F)
+          verticalLineToRelative(2.0F)
+          horizontalLineTo(0.0F)
+          verticalLineTo(9.0F)
+          horizontalLineToRelative(1.0F)
+          close()
+          moveToRelative(4.0F, -1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineTo(8.0F)
+          horizontalLineTo(5.0F)
+          close()
+          moveToRelative(1.0F, 1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineTo(9.0F)
+          horizontalLineTo(6.0F)
+          close()
+          moveToRelative(6.0F, -1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineTo(8.0F)
+          horizontalLineToRelative(-1.0F)
+          close()
+          moveToRelative(1.0F, 1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineTo(9.0F)
+          horizontalLineToRelative(-1.0F)
+          close()
+          moveToRelative(-6.111F, 3.514F)
+          curveTo(6.715F, 12.3F, 6.4F, 12.266F, 6.185F, 12.44F)
+          curveToRelative(-0.214F, 0.174F, -0.247F, 0.489F, -0.074F, 0.703F)
+          curveTo(7.027F, 14.275F, 8.43F, 15.0F, 10.0F, 15.0F)
+          curveToRelative(1.57F, 0.0F, 2.973F, -0.725F, 3.889F, -1.857F)
+          curveToRelative(0.173F, -0.215F, 0.14F, -0.53F, -0.074F, -0.703F)
+          curveToRelative(-0.215F, -0.174F, -0.53F, -0.14F, -0.704F, 0.074F)
+          curveTo(12.377F, 13.421F, 11.256F, 14.0F, 10.0F, 14.0F)
+          curveToRelative(-1.256F, 0.0F, -2.377F, -0.579F, -3.111F, -1.486F)
+          close()        
+      }
+    }
+    return _emojiMeme20!!
+  }
+
+private var _emojiMeme20: ImageVector? = null

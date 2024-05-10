@@ -12,21 +12,21 @@ public val FluentIcons.Filled.ArrowReply28: ImageVector
     }
     _arrowReply28 = fluentIcon(name = "Filled.ArrowReply28", 28f) {
       materialPath {
-          moveTo(10.457F, 5.543F)
+          moveTo(10.707F, 5.293F)
           curveToRelative(0.39F, 0.39F, 0.39F, 1.024F, 0.0F, 1.414F)
           lineTo(6.414F, 11.0F)
-          horizontalLineToRelative(7.836F)
-          curveToRelative(6.075F, 0.0F, 11.0F, 4.925F, 11.0F, 11.0F)
+          horizontalLineTo(15.0F)
+          curveToRelative(5.523F, 0.0F, 10.0F, 4.477F, 10.0F, 10.0F)
           curveToRelative(0.0F, 0.552F, -0.448F, 1.0F, -1.0F, 1.0F)
           reflectiveCurveToRelative(-1.0F, -0.448F, -1.0F, -1.0F)
-          curveToRelative(0.0F, -4.97F, -4.03F, -9.0F, -9.0F, -9.0F)
+          curveToRelative(0.0F, -4.418F, -3.582F, -8.0F, -8.0F, -8.0F)
           horizontalLineTo(6.414F)
-          lineToRelative(4.043F, 4.043F)
+          lineToRelative(4.293F, 4.293F)
           curveToRelative(0.39F, 0.39F, 0.39F, 1.024F, 0.0F, 1.414F)
           curveToRelative(-0.39F, 0.39F, -1.024F, 0.39F, -1.414F, 0.0F)
-          lineToRelative(-5.75F, -5.75F)
+          lineToRelative(-6.0F, -6.0F)
           curveToRelative(-0.39F, -0.39F, -0.39F, -1.024F, 0.0F, -1.414F)
-          lineToRelative(5.75F, -5.75F)
+          lineToRelative(6.0F, -6.0F)
           curveToRelative(0.39F, -0.39F, 1.024F, -0.39F, 1.414F, 0.0F)
           close()        
       }

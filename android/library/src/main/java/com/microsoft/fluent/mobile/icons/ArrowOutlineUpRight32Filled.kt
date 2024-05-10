@@ -12,19 +12,19 @@ public val FluentIcons.Filled.ArrowOutlineUpRight32: ImageVector
     }
     _arrowOutlineUpRight32 = fluentIcon(name = "Filled.ArrowOutlineUpRight32", 32f) {
       materialPath {
-          moveTo(29.976F, 5.534F)
-          curveToRelative(0.166F, -2.003F, -1.506F, -3.676F, -3.51F, -3.509F)
-          lineTo(9.952F, 3.402F)
-          curveToRelative(-2.757F, 0.23F, -3.985F, 3.58F, -2.028F, 5.536F)
-          lineToRelative(1.913F, 1.914F)
-          lineToRelative(-6.951F, 6.955F)
-          curveToRelative(-1.268F, 1.27F, -1.268F, 3.326F, 0.0F, 4.595F)
-          lineToRelative(6.712F, 6.717F)
-          curveToRelative(1.27F, 1.27F, 3.328F, 1.27F, 4.597F, 0.0F)
-          lineToRelative(6.955F, -6.954F)
-          lineToRelative(1.913F, 1.913F)
-          curveToRelative(1.957F, 1.956F, 5.307F, 0.729F, 5.537F, -2.029F)
-          lineToRelative(1.377F, -16.515F)
+          moveTo(9.969F, 29.125F)
+          curveToRelative(1.171F, 1.171F, 3.07F, 1.171F, 4.242F, 0.0F)
+          lineToRelative(6.904F, -6.904F)
+          lineToRelative(1.749F, 1.75F)
+          curveToRelative(2.122F, 2.12F, 5.755F, 0.763F, 5.966F, -2.23F)
+          lineToRelative(1.167F, -16.53F)
+          curveToRelative(0.128F, -1.82F, -1.384F, -3.332F, -3.204F, -3.203F)
+          lineTo(10.26F, 3.175F)
+          curveTo(7.266F, 3.387F, 5.91F, 7.02F, 8.032F, 9.142F)
+          lineTo(9.78F, 10.89F)
+          lineToRelative(-6.9F, 6.902F)
+          curveToRelative(-1.172F, 1.171F, -1.172F, 3.071F, 0.0F, 4.243F)
+          lineToRelative(7.09F, 7.09F)
           close()        
       }
     }

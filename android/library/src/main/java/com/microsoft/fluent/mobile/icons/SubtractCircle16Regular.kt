@@ -12,6 +12,18 @@ public val FluentIcons.Regular.SubtractCircle16: ImageVector
     }
     _subtractCircle16 = fluentIcon(name = "Regular.SubtractCircle16", 16f) {
       materialPath {
+          moveTo(2.0F, 8.0F)
+          curveToRelative(0.0F, -3.314F, 2.686F, -6.0F, 6.0F, -6.0F)
+          reflectiveCurveToRelative(6.0F, 2.686F, 6.0F, 6.0F)
+          reflectiveCurveToRelative(-2.686F, 6.0F, -6.0F, 6.0F)
+          reflectiveCurveToRelative(-6.0F, -2.686F, -6.0F, -6.0F)
+          close()
+          moveToRelative(6.0F, -7.0F)
+          curveTo(4.134F, 1.0F, 1.0F, 4.134F, 1.0F, 8.0F)
+          reflectiveCurveToRelative(3.134F, 7.0F, 7.0F, 7.0F)
+          reflectiveCurveToRelative(7.0F, -3.134F, 7.0F, -7.0F)
+          reflectiveCurveToRelative(-3.134F, -7.0F, -7.0F, -7.0F)
+          close()
           moveTo(5.5F, 7.5F)
           curveTo(5.224F, 7.5F, 5.0F, 7.724F, 5.0F, 8.0F)
           reflectiveCurveToRelative(0.224F, 0.5F, 0.5F, 0.5F)
@@ -19,18 +31,6 @@ public val FluentIcons.Regular.SubtractCircle16: ImageVector
           curveTo(10.776F, 8.5F, 11.0F, 8.276F, 11.0F, 8.0F)
           reflectiveCurveToRelative(-0.224F, -0.5F, -0.5F, -0.5F)
           horizontalLineToRelative(-5.0F)
-          close()
-          moveTo(8.0F, 2.0F)
-          curveTo(4.686F, 2.0F, 2.0F, 4.686F, 2.0F, 8.0F)
-          reflectiveCurveToRelative(2.686F, 6.0F, 6.0F, 6.0F)
-          reflectiveCurveToRelative(6.0F, -2.686F, 6.0F, -6.0F)
-          reflectiveCurveToRelative(-2.686F, -6.0F, -6.0F, -6.0F)
-          close()
-          moveTo(3.0F, 8.0F)
-          curveToRelative(0.0F, -2.761F, 2.239F, -5.0F, 5.0F, -5.0F)
-          reflectiveCurveToRelative(5.0F, 2.239F, 5.0F, 5.0F)
-          reflectiveCurveToRelative(-2.239F, 5.0F, -5.0F, 5.0F)
-          reflectiveCurveToRelative(-5.0F, -2.239F, -5.0F, -5.0F)
           close()        
       }
     }

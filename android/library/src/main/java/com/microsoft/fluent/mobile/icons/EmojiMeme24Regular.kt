@@ -1,0 +1,108 @@
+package com.microsoft.fluent.mobile.icons
+
+import androidx.compose.material.icons.materialPath
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.microsoft.fluent.mobile.FluentIcons
+import com.microsoft.fluent.mobile.fluentIcon
+
+public val FluentIcons.Regular.EmojiMeme24: ImageVector
+  get() {
+    if (_emojiMeme24 != null) {
+      return _emojiMeme24!!
+    }
+    _emojiMeme24 = fluentIcon(name = "Regular.EmojiMeme24", 24f) {
+      materialPath {
+          moveTo(20.004F, 6.0F)
+          horizontalLineToRelative(-1.98F)
+          curveToRelative(-1.54F, -1.545F, -3.67F, -2.501F, -6.022F, -2.501F)
+          curveToRelative(-2.354F, 0.0F, -4.484F, 0.956F, -6.023F, 2.501F)
+          horizontalLineTo(4.0F)
+          curveToRelative(1.825F, -2.43F, 4.73F, -4.001F, 8.003F, -4.001F)
+          curveToRelative(3.272F, 0.0F, 6.177F, 1.571F, 8.002F, 4.001F)
+          close()
+          moveTo(3.5F, 12.0F)
+          curveToRelative(0.0F, -0.338F, 0.02F, -0.672F, 0.058F, -1.0F)
+          horizontalLineTo(2.05F)
+          curveTo(2.017F, 11.33F, 2.0F, 11.663F, 2.0F, 12.0F)
+          curveToRelative(0.0F, 5.524F, 4.478F, 10.002F, 10.002F, 10.002F)
+          curveToRelative(5.186F, 0.0F, 9.45F, -3.947F, 9.952F, -9.002F)
+          horizontalLineTo(21.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(-0.733F)
+          curveToRelative(-0.9F, 3.73F, -4.259F, 6.502F, -8.265F, 6.502F)
+          curveToRelative(-4.696F, 0.0F, -8.502F, -3.806F, -8.502F, -8.501F)
+          close()
+          moveToRelative(8.502F, 4.502F)
+          curveToRelative(-1.399F, 0.0F, -2.69F, -0.64F, -3.539F, -1.718F)
+          curveToRelative(-0.256F, -0.325F, -0.728F, -0.381F, -1.053F, -0.125F)
+          curveToRelative(-0.325F, 0.256F, -0.381F, 0.728F, -0.125F, 1.053F)
+          curveToRelative(1.13F, 1.435F, 2.854F, 2.29F, 4.716F, 2.29F)
+          curveToRelative(1.86F, 0.0F, 3.582F, -0.852F, 4.713F, -2.284F)
+          curveToRelative(0.256F, -0.325F, 0.201F, -0.797F, -0.124F, -1.054F)
+          curveToRelative(-0.325F, -0.256F, -0.797F, -0.201F, -1.053F, 0.124F)
+          curveToRelative(-0.85F, 1.075F, -2.14F, 1.714F, -3.536F, 1.714F)
+          close()
+          moveTo(3.0F, 7.0F)
+          horizontalLineToRelative(19.0F)
+          verticalLineToRelative(3.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineToRelative(2.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(-5.0F)
+          verticalLineToRelative(-1.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineToRelative(-2.0F)
+          horizontalLineToRelative(-2.0F)
+          verticalLineToRelative(2.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineTo(6.0F)
+          verticalLineToRelative(-1.0F)
+          horizontalLineTo(5.0F)
+          verticalLineToRelative(-2.0F)
+          horizontalLineTo(4.0F)
+          verticalLineTo(9.0F)
+          horizontalLineTo(2.0F)
+          verticalLineTo(8.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineTo(7.0F)
+          close()
+          moveToRelative(-2.0F, 3.0F)
+          verticalLineTo(9.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineTo(1.0F)
+          close()
+          moveToRelative(0.0F, 0.0F)
+          horizontalLineTo(0.0F)
+          verticalLineToRelative(2.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineToRelative(-2.0F)
+          close()
+          moveToRelative(6.0F, -1.0F)
+          horizontalLineTo(6.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineToRelative(-1.0F)
+          horizontalLineTo(7.0F)
+          verticalLineTo(9.0F)
+          close()
+          moveToRelative(9.0F, 0.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineToRelative(1.0F)
+          horizontalLineToRelative(1.0F)
+          verticalLineToRelative(-1.0F)
+          horizontalLineToRelative(-1.0F)
+          verticalLineTo(9.0F)
+          close()        
+      }
+    }
+    return _emojiMeme24!!
+  }
+
+private var _emojiMeme24: ImageVector? = null

@@ -1,0 +1,106 @@
+package com.microsoft.fluent.mobile.icons
+
+import androidx.compose.material.icons.materialPath
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.microsoft.fluent.mobile.FluentIcons
+import com.microsoft.fluent.mobile.fluentIcon
+
+public val FluentIcons.Regular.SquareHintHexagon12: ImageVector
+  get() {
+    if (_squareHintHexagon12 != null) {
+      return _squareHintHexagon12!!
+    }
+    _squareHintHexagon12 = fluentIcon(name = "Regular.SquareHintHexagon12", 12f) {
+      materialPath {
+          moveTo(3.5F, 2.0F)
+          curveTo(2.672F, 2.0F, 2.0F, 2.672F, 2.0F, 3.5F)
+          curveTo(2.0F, 3.776F, 2.224F, 4.0F, 2.5F, 4.0F)
+          reflectiveCurveTo(3.0F, 3.776F, 3.0F, 3.5F)
+          reflectiveCurveTo(3.224F, 3.0F, 3.5F, 3.0F)
+          reflectiveCurveTo(4.0F, 2.776F, 4.0F, 2.5F)
+          reflectiveCurveTo(3.776F, 2.0F, 3.5F, 2.0F)
+          close()
+          moveToRelative(2.0F, 0.0F)
+          curveTo(5.224F, 2.0F, 5.0F, 2.224F, 5.0F, 2.5F)
+          reflectiveCurveTo(5.224F, 3.0F, 5.5F, 3.0F)
+          horizontalLineToRelative(1.0F)
+          curveTo(6.776F, 3.0F, 7.0F, 2.776F, 7.0F, 2.5F)
+          reflectiveCurveTo(6.776F, 2.0F, 6.5F, 2.0F)
+          horizontalLineToRelative(-1.0F)
+          close()
+          moveToRelative(3.0F, 0.0F)
+          curveTo(8.224F, 2.0F, 8.0F, 2.224F, 8.0F, 2.5F)
+          reflectiveCurveTo(8.224F, 3.0F, 8.5F, 3.0F)
+          reflectiveCurveTo(9.0F, 3.224F, 9.0F, 3.5F)
+          reflectiveCurveTo(9.224F, 4.0F, 9.5F, 4.0F)
+          reflectiveCurveTo(10.0F, 3.776F, 10.0F, 3.5F)
+          curveTo(10.0F, 2.672F, 9.328F, 2.0F, 8.5F, 2.0F)
+          close()
+          moveTo(3.0F, 5.5F)
+          curveTo(3.0F, 5.224F, 2.776F, 5.0F, 2.5F, 5.0F)
+          reflectiveCurveTo(2.0F, 5.224F, 2.0F, 5.5F)
+          verticalLineToRelative(1.0F)
+          curveTo(2.0F, 6.776F, 2.224F, 7.0F, 2.5F, 7.0F)
+          reflectiveCurveTo(3.0F, 6.776F, 3.0F, 6.5F)
+          verticalLineToRelative(-1.0F)
+          close()
+          moveToRelative(7.0F, 0.0F)
+          curveTo(10.0F, 5.224F, 9.776F, 5.0F, 9.5F, 5.0F)
+          reflectiveCurveTo(9.0F, 5.224F, 9.0F, 5.5F)
+          verticalLineToRelative(1.0F)
+          curveTo(9.0F, 6.776F, 9.224F, 7.0F, 9.5F, 7.0F)
+          reflectiveCurveTo(10.0F, 6.776F, 10.0F, 6.5F)
+          verticalLineToRelative(-1.0F)
+          close()
+          moveToRelative(-7.0F, 3.0F)
+          curveTo(3.0F, 8.224F, 2.776F, 8.0F, 2.5F, 8.0F)
+          reflectiveCurveTo(2.0F, 8.224F, 2.0F, 8.5F)
+          curveTo(2.0F, 9.328F, 2.672F, 10.0F, 3.5F, 10.0F)
+          curveTo(3.776F, 10.0F, 4.0F, 9.776F, 4.0F, 9.5F)
+          reflectiveCurveTo(3.776F, 9.0F, 3.5F, 9.0F)
+          reflectiveCurveTo(3.0F, 8.776F, 3.0F, 8.5F)
+          close()
+          moveToRelative(7.0F, 0.0F)
+          curveTo(10.0F, 8.224F, 9.776F, 8.0F, 9.5F, 8.0F)
+          reflectiveCurveTo(9.0F, 8.224F, 9.0F, 8.5F)
+          reflectiveCurveTo(8.776F, 9.0F, 8.5F, 9.0F)
+          reflectiveCurveTo(8.0F, 9.224F, 8.0F, 9.5F)
+          reflectiveCurveTo(8.224F, 10.0F, 8.5F, 10.0F)
+          curveTo(9.328F, 10.0F, 10.0F, 9.328F, 10.0F, 8.5F)
+          close()
+          moveTo(5.5F, 9.0F)
+          curveTo(5.224F, 9.0F, 5.0F, 9.224F, 5.0F, 9.5F)
+          reflectiveCurveTo(5.224F, 10.0F, 5.5F, 10.0F)
+          horizontalLineToRelative(1.0F)
+          curveTo(6.776F, 10.0F, 7.0F, 9.776F, 7.0F, 9.5F)
+          reflectiveCurveTo(6.776F, 9.0F, 6.5F, 9.0F)
+          horizontalLineToRelative(-1.0F)
+          close()
+          moveTo(4.84F, 6.0F)
+          lineToRelative(0.58F, -1.0F)
+          horizontalLineToRelative(1.162F)
+          lineToRelative(0.58F, 1.0F)
+          lineToRelative(-0.58F, 0.998F)
+          horizontalLineTo(5.42F)
+          lineTo(4.84F, 6.0F)
+          close()
+          moveToRelative(0.435F, -2.0F)
+          curveTo(5.008F, 4.0F, 4.761F, 4.142F, 4.626F, 4.374F)
+          lineTo(3.902F, 5.623F)
+          curveToRelative(-0.135F, 0.232F, -0.135F, 0.52F, 0.0F, 0.752F)
+          lineToRelative(0.724F, 1.25F)
+          curveToRelative(0.135F, 0.23F, 0.382F, 0.373F, 0.65F, 0.373F)
+          horizontalLineToRelative(1.45F)
+          curveToRelative(0.268F, 0.0F, 0.515F, -0.142F, 0.649F, -0.374F)
+          lineToRelative(0.724F, -1.249F)
+          curveToRelative(0.135F, -0.232F, 0.135F, -0.52F, 0.0F, -0.752F)
+          lineToRelative(-0.724F, -1.25F)
+          curveTo(7.24F, 4.144F, 6.994F, 4.0F, 6.726F, 4.0F)
+          horizontalLineToRelative(-1.45F)
+          close()        
+      }
+    }
+    return _squareHintHexagon12!!
+  }
+
+private var _squareHintHexagon12: ImageVector? = null
