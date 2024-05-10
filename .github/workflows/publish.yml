@@ -107,7 +107,7 @@ jobs:
         rm flutter/pubspec.yaml.bk
 
     # Needs to be "-E" instead of "-r" on macOS
-    - name: Replace version number in package.json
+    - name: Replace version number in svg-icons/package.json
       run: |
         sed -i.bk -r "s/\"version\": \"[0-9]+\.[0-9]+\.[0-9]+\"/\"version\": \"$NEW_VERSION\"/g" packages/svg-icons/package.json
         rm packages/svg-icons/package.json.bk
@@ -123,6 +123,12 @@ jobs:
       run: |
         sed -i.bk -r "s/\"version\": \"[0-9]+\.[0-9]+\.[0-9]+(-beta\.[0-9]+)?(-rc\.[0-9]+)?\"/\"version\": \"$REACT_VERSION\"/g" packages/react-icons/package.json
         rm packages/react-icons/package.json.bk
+    
+    # Needs to be "-E" instead of "-r" on macOS
+    - name: Replace version number in react-native-icons/package.json
+      run: |
+        sed -i.bk -r "s/\"version\": \"[0-9]+\.[0-9]+\.[0-9]+\"/\"version\": \"$REACT_VERSION\"/g" packages/react-native-icons/package.json
+        rm packages/react-native-icons/package.json.bk
 
     # Needs to be "-E" instead of "-r" on macOS
     - name: Replace version number in react-icons-font-subsetting-webpack-plugin/package.json
@@ -162,13 +168,13 @@ jobs:
       with:
         token: ${{ secrets.NPM_TOKEN }}
         access: public
-        package: packages/svg-sprites/package.json
+        package: packages/svg-icons/package.json
 
     - uses: JS-DevTools/npm-publish@v1
       with:
-        token: ${{ secrets.NPM_TOKEN }} 
+        token: ${{ secrets.NPM_TOKEN }}
         access: public
-        package: packages/react-native-icons/package.json 
+        package: packages/svg-sprites/package.json
 
     - uses: JS-DevTools/npm-publish@v1
       with:
@@ -221,20 +227,21 @@ jobs:
         build-root-directory: android
         wrapper-directory: android
 
-    - name: Publish to Maven Central
-      uses: eskatos/gradle-command-action@v1
-      env:
-        OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
-        OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
-        GPG_SIGNING_KEY_ID: ${{ secrets.GPG_SIGNING_KEY_ID }}
-        GPG_SIGNING_PASSWORD: ${{ secrets.GPG_SIGNING_PASSWORD }}
-        SIGNING_SECRET_KEY_RING_FILE: ${{ secrets.SIGNING_SECRET_KEY_RING_FILE }}
-        SONATYPE_STAGING_PROFILE_ID: ${{ secrets.SONATYPE_STAGING_PROFILE_ID }}
-        VERSION_NAME: ${{ env.NEW_VERSION }}
-      with:
-        arguments: publishReleasePublicationToSonatypeRepository --max-workers 1 closeAndReleaseSonatypeStagingRepository
-        build-root-directory: android
-        wrapper-directory: android
+    # Temporarily commenting out the publishing to Maven Central, as it is blocking the release for other platforms
+    # - name: Publish to Maven Central
+    #   uses: eskatos/gradle-command-action@v1
+    #   env:
+    #     OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+    #     OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
+    #     GPG_SIGNING_KEY_ID: ${{ secrets.GPG_SIGNING_KEY_ID }}
+    #     GPG_SIGNING_PASSWORD: ${{ secrets.GPG_SIGNING_PASSWORD }}
+    #     SIGNING_SECRET_KEY_RING_FILE: ${{ secrets.SIGNING_SECRET_KEY_RING_FILE }}
+    #     SONATYPE_STAGING_PROFILE_ID: ${{ secrets.SONATYPE_STAGING_PROFILE_ID }}
+    #     VERSION_NAME: ${{ env.NEW_VERSION }}
+    #   with:
+    #     arguments: publishReleasePublicationToSonatypeRepository --max-workers 1 closeAndReleaseSonatypeStagingRepository
+    #     build-root-directory: android
+    #     wrapper-directory: android
 
     - name: Generate BUILD.gn file for Android
       run: python3 generate_build_gn_android.py
